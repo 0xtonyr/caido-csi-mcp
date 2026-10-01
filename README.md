@@ -110,3 +110,7 @@ a reboot).
 | `~/.csi/caido-bridge.sh` / `.log` | MCP bridge (stdio → SSE) and its log |
 | `~/.csi/start-redteam.sh` | Starts the CAI session with the Caido MCP |
 | `~/.caido-mcp/token.json` | Caido OAuth token |
+
+## License
+
+[MIT](LICENSE)
