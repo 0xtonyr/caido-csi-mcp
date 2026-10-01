@@ -23,10 +23,8 @@ caido-mcp-server serve  ──GraphQL──▶  Caido (127.0.0.1:<port>)
 
 ## Supported platforms
 
-| OS     | amd64 (x86_64) | arm64 (aarch64 / Apple Silicon) |
-|--------|----------------|---------------------------------|
-| Linux (Kali/Debian/Ubuntu) | ✅ tested (Kali) | ⚠️ supported, untested |
-| macOS  | ⚠️ supported, untested | ⚠️ supported, untested |
+- **Linux** (Kali, Debian, Ubuntu) and **macOS**
+- **amd64** (x86_64) and **arm64** (aarch64 / Apple Silicon)
 
 The script detects OS, architecture and shell automatically and relies only on
 portable tooling (`ss` or `lsof`; no GNU-only `grep -P`, `setsid` or `sed -i`).
